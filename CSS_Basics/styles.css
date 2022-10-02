@@ -38,7 +38,7 @@ img {
   margin-top:-25px;
 }
 
-hr {
+hr {             /* changesd all hr elements */
   height: 2px;
   background-color: brown;
   border-color: brown;
@@ -48,18 +48,18 @@ hr {
   margin-top: 25px;
 }
 
-h1, h2 {
+h1, h2 {                 /* changes all h1 and h2 elements */
   font-family: Impact, serif;
 }
 
-.item p {
+.item p {                /* Includes only <p></p> elements in this class */
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-.flavor, .dessert {
+.flavor, .dessert {   /* Adding 2 classes with in-common traits */
   text-align: left;
   width: 75%;
 }
@@ -83,14 +83,14 @@ a {
   color: black;
 }
 
-a:visited {
+a:visited {         /* once a link has been visited, it changes */
   color: black;
 }
-
-a:hover {
+ 
+a:hover {          /* when hovering over the link, it changes */
   color: brown;
 }
 
-a:active {
+a:active {          /* Styles the link of what is selected (like a homepage link) */
   color: brown;
 }
